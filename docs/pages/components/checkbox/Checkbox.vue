@@ -14,6 +14,10 @@
             <p>You have to wrap them on a <router-link to="/documentation/field">Field</router-link>.</p>
         </Example>
 
+        <Example :component="ExCheckboxTag" :code="ExCheckboxTagCode" title="Checkbox Tag">
+            <p>You have to wrap them in a <router-link to="/documentation/tag#tag-list">Tag list</router-link>.</p>
+        </Example>
+
         <ApiView :data="api"/>
     </div>
 </template>
@@ -36,6 +40,9 @@
     import ExCheckboxButton from './examples/ExCheckboxButton'
     import ExCheckboxButtonCode from '!!raw-loader!./examples/ExCheckboxButton'
 
+    import ExCheckboxTag from './examples/ExCheckboxTag'
+    import ExCheckboxTagCode from '!!raw-loader!./examples/ExCheckboxTag'
+
     export default {
         data() {
             return {
@@ -49,7 +56,9 @@
                 ExTypes,
                 ExTypesCode,
                 ExCheckboxButton,
-                ExCheckboxButtonCode
+                ExCheckboxButtonCode,
+                ExCheckboxTag,
+                ExCheckboxTagCode
             }
         }
     }

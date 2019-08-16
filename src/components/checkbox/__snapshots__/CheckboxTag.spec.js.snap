@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BCheckboxTag render correctly 1`] = `<btag-stub type="is-primary" tabstop="true"><label class="b-checkbox checkbox"> <input type="checkbox" value="false"></label></btag-stub>`;
